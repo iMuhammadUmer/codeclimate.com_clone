@@ -6,6 +6,7 @@
 }
 :root {
   --blue: #666cdc;
+  --green: #00d693;
 }
 header {
   width: 100%;
@@ -16,12 +17,12 @@ header {
   align-items: center;
 }
 header img {
-  margin-left: 30px;
+  margin-left: 3em;
 }
 nav {
   width: 610px;
   height: 70px;
-  margin-right: 30px;
+  margin-right: 3em;
 }
 nav ul {
   height: inherit;
@@ -43,4 +44,17 @@ nav li a {
 }
 nav a:hover {
   color: var(--blue);
+}
+button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: var(--green);
+  color: white;
+}
+#btnGetStarted {
+  width: 115px;
+  height: 41px;
 }
