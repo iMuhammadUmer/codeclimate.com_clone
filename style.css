@@ -116,3 +116,9 @@ section {
   justify-content: space-between;
   align-items: center;
 }
+.whatWeDo {
+  width: 80%;
+  height: 840px;
+  margin: 2em 0 2em 0;
+  background-color: aqua;
+}
