@@ -118,7 +118,7 @@ section {
 }
 .whatWeDo {
   width: 80%;
-  height: 840px;
+  height: 750px;
   margin: 2em 0 2em 0;
   box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -151,4 +151,7 @@ section {
 }
 .whatWeDo .content .row .col p {
   margin-bottom: 1em;
+}
+.reviews {
+  width: 100%;
 }
