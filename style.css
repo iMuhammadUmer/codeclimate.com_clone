@@ -120,5 +120,35 @@ section {
   width: 80%;
   height: 840px;
   margin: 2em 0 2em 0;
-  background-color: aqua;
+  box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whatWeDo .content {
+  width: 85%;
+  height: 640px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.whatWeDo h1 {
+  width: 86%;
+  font-size: 52px;
+  line-height: 73px;
+  font-weight: 400;
+}
+.whatWeDo .content .row {
+  height: 280px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whatWeDo .content .row .col {
+  width: 476px;
+  height: 280px;
+}
+.whatWeDo .content .row .col p {
+  margin-bottom: 1em;
 }
