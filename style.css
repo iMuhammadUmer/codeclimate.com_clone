@@ -191,5 +191,42 @@ section {
 }
 .features {
   width: 100%;
-  height: 860px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blueImg {
+  height: inherit;
+  background-image: url(https://d341kum51qu34d.cloudfront.net/images/2019-04-redesign/diagonal_pill_full-935c0798.svg);
+  width: 100%;
+  left: -10em;
+  bottom: -10em;
+  position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.features .col {
+  height: inherit;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.features .col .row {
+  width: 450px;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+.features .col .row img {
+  height: 100px;
+  width: 100px;
+}
+.features .col .row .col {
+  width: 310px;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
