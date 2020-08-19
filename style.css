@@ -230,3 +230,8 @@ section {
   justify-content: space-between;
   flex-direction: column;
 }
+.tools {
+  width: 85%;
+  height: 310px;
+  
+}
