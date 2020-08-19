@@ -233,5 +233,21 @@ section {
 .tools {
   width: 85%;
   height: 310px;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tools h1 {
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 400;
+}
+.tools .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tools img {
+  height: 80px;
+  width: 80px;
 }
