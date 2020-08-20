@@ -9,6 +9,7 @@
   --green: #00d693;
   --black: #222222;
   --grey: #333333;
+  --copyright: #adadad;
 }
 header {
   width: 100%;
@@ -340,9 +341,76 @@ footer .linksCol {
   height: inherit;
   width: 78%;
   background-color: var(--grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer .loginCol {
   height: inherit;
   width: 22%;
   background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linksCol .content {
+  width: 85%;
+  height: 80%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.linksCol .content .linksRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+footer #heading {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+footer li {
+  width: 218px;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 400;
+  margin: 1em 0 1em 0;
+}
+footer li a {
+  font-size: inherit;
+  color: white;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+#lowercase {
+  text-transform: lowercase;
+}
+#capitalize {
+  text-transform: capitalize;
+}
+footer p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--copyright);
+}
+footer .loginCol .content {
+  height: 100px;
+  width: 175px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+#btnFooter {
+  height: 22px;
+  width: 174px;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  border-radius: 0;
+  margin: 1em 0 1em 0;
 }
