@@ -232,10 +232,11 @@ section {
 }
 .tools {
   width: 85%;
-  height: 310px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 2em 0 4em 0;
 }
 .tools h1 {
   font-size: 30px;
@@ -251,8 +252,46 @@ section {
   height: 80px;
   width: 80px;
 }
-.blog{
-    width:85%;
-    height: 810px;
-    
+.blog {
+  width: 85%;
+  height: 810px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 3em;
+}
+.blog h1 {
+  width: 260px;
+}
+.blog .blogRow {
+  display: flex;
+  justify-content: space-between;
+}
+.blog .blogCol {
+  width: 380px;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: grey;
+  transition: 0.3s ease-in-out;
+}
+.blog .blogCol:hover {
+  width: 420px;
+  height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: black;
+}
+.blogCol .content {
+  width: 300px;
+  height: 335px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
