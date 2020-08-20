@@ -7,6 +7,8 @@
 :root {
   --blue: #666cdc;
   --green: #00d693;
+  --black: #222222;
+  --grey: #333333;
 }
 header {
   width: 100%;
@@ -321,6 +323,26 @@ section {
   font-size: 17px;
   line-height: 24px;
   font-weight: 400;
-  display: block;
-  margin-top: 1em;
+}
+.trial .col {
+  height: inherit;
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer {
+  height: 460px;
+  width: 100%;
+  display: flex;
+}
+footer .linksCol {
+  height: inherit;
+  width: 78%;
+  background-color: var(--grey);
+}
+footer .loginCol {
+  height: inherit;
+  width: 22%;
+  background-color: var(--black);
 }
